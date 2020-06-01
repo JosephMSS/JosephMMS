@@ -5,36 +5,23 @@
 * > ```<ol></ol> | <ul></ul>``` Creación de una lista 
 * >  ```<li><li>``` Creación de los items
 * >  ```<a><a>``` Para crear una hipertexto
+
+* > Atributos de ```<link>``` <br> ```rel="relacion del recurso contenido"``` <br>```type="recurso/formato"``` <br> ``` href="ubicacion de la ryta del archvo o enlazar elemntos por medio de un id(#)"```
 ## Contenido de la Página
 * > El contenido de la página debe llevar al menos un ```<h1></h1>```
 * >```<section></section>``` Esta se puede llevar a cabo por medio de sectores en vez de utilizar la etiqueta ```<div></div>```
 * > La etiqueta ```<article></article>``` Es la parte de nustro contenido que puede vivir por si mismo.Pueden haber tantos artcle como proyectos o eventos existan.
-* > ```<small></small>``` Aplica una apariencia reducida al texto.
+* > ```<small></small>``` Aplica una apariencia reducida al texto 
+
+## Imagenes
 * > ```<figure></figure>``` le da un contenido semantico a las imagenes
 * > ```<img/>``` atributos:  ```alt=""```,```src=""```
-* > Ruta absoluta: Se especifica la ruta exacta, con el prefio http(s)
+* > Ruta absoluta: Se especifica la ruta exacta, con el prefijo http(s)
 * > Ruta relativa: Se hace referencia a la ubicacion de la imagen, parte de la ubicacion del archivo catual
 * > ```<link>``` se usa para poner el favicon en la web  
-* > Atributos de link <br> ```rel="relacion del recurso contenido"``` <br>```type="recurso/formato"``` <br> ``` href="ubicacion de la ryta del archvo o enlazar elemntos por medio de un id(#)"```
 
-```!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso de Desarrollo Web</title>
-</head>
-<body>
-    <header>  Cabecera
-        <nav> barra de navegacion
-            <ol> para lisatar las paginas a las cuales nos vamos a dirigir
-                <li>
-                    <a href=""></a>
-                </li>
-            </ol>
-        </nav>
-    </header> fin d ela cabecera
-    <section>Principal</section> cuerpo de la pagina
-    <footer>footer</footer> el pie de la pagina
-</body>
-</html> ```
+## Formularios
+* > <label for="Email">Email</label> -->
+            <input placeholder="Dejanos tu email !" type="text" name="email" id="Email">
+            <!-- <input type="submit"  value="texo del boton"> -->
+            <button>Enviar</button>
