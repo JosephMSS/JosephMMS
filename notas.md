@@ -11,7 +11,9 @@
 * > La etiqueta ```<article></article>``` Es la parte de nustro contenido que puede vivir por si mismo.Pueden haber tantos artcle como proyectos o eventos existan.
 * > ```<small></small>``` Aplica una apariencia reducida al texto.
 * > ```<figure></figure>``` le da un contenido semantico a las imagenes
-
+* > ```<img/>``` atributos:  ```alt=""```,```src=""```
+* > Ruta absoluta: Se especifica la ruta exacta, con el prefio http(s)
+* > Ruta relativa: Se hace referencia a la ubicacion de la imagen, parte de la ubicacion del archivo catual
 
 ```!DOCTYPE html>
 <html lang="en">
