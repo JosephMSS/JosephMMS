@@ -1,5 +1,5 @@
 # Orden básico de etiquetas
-## 1. La Estructura de la Cabecera
+## La Estructura de la Cabecera
 * >```<header></header>``` Este es el contenedor de la cabecera.
 * >```<nav></nav>``` Se utiliza para la creación de la barra de navegación.
 * > ```<ol></ol> | <ul></ul>``` Creación de una lista 
@@ -8,7 +8,9 @@
 ## Contenido de la Página
 * > El contenido de la página debe llevar al menos un ```<h1></h1>```
 * >```<section></section>``` Esta se puede llevar a cabo por medio de sectores en vez de utilizar la etiqueta ```<div></div>```
-* > La etiqueta ```<article></article>``` **<spam style="color:red">Ver en que caso lo usa</spam>**
+* > La etiqueta ```<article></article>``` Es la parte de nustro contenido que puede vivir por si mismo.Pueden haber tantos artcle como proyectos o eventos existan.
+* > ```<small></small>``` Aplica una apariencia reducida al texto.
+* > ```<figure></figure>``` le da un contenido semantico a las imagenes
 
 
 ```!DOCTYPE html>
