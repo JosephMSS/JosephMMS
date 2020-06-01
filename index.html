@@ -6,63 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso de Desarrollo Web</title>
     <link rel="icon" type="image/png" href="images/favicon.png" />
-
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header>
+    <header class="header">
         <div>
-            <figure>
+            <figure class="logo">
                 <img src="images/logo.png" alt="logo">
             </figure>
-            <nav>
+            <nav class="menu">
                 <ol>
                     <li>
-                        <a href="">Portafolio</a>
+                        <a class="link" href="#portafolio">Portafolio</a>
                     </li>
                     <li>
-                        <a href="">Experiencia</a>
+                        <a class="link" href="#eventos">Experiencia</a>
                     </li>
                     <li>
-                        <a href="">Trabajemos juntos</a>
+                        <a class="link" href="#t_Juntos">Trabajemos juntos</a>
                     </li>
                 </ol>
             </nav>
         </div>
     </header>
-    <section>
+    <section class="hero">
         <h1>Hola, soy <strong>Joseph Morales</strong> Desarrollador Junior, estudiante de <strong>Informática
                 Empresarial</strong></h1>
         <img src="images/hero.jpg" width="500 px" height="300px" alt="Imagen de Portada" />
     </section>
-    <section>
+    <section id="portafolio" class="portfolio">
         <h2>Portafolio{Proyectos destacados}</h2>
-        <article>
-            <h3>Platzi Video</h3><!-- Los articulos requieren de un h  -->
-            <h6>react Native / React</h6><!-- Puedo utilizar los h para indicar mini subtitulos si lo deseo -->
-            <p><small><strong>Fecha:</strong> 01/07/2018</small></p>
+        <article class="project">
+            <h3 class="project-title">Platzi Video</h3><!-- Los articulos requieren de un h  -->
+            <h6 class="project-course">react Native / React</h6>
+            <!-- Puedo utilizar los h para indicar mini subtitulos si lo deseo -->
+            <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
             <!-- Small funciona para reducir el tamaño del texto  -->
-            <p><small><strong>Puedes verlo en:</strong>www.platzi.com/native</small></p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iste illo nostrum quibusdam esse corporis,
+            <p class="project-url"><small><strong>Puedes verlo en:</strong>www.platzi.com/native</small></p>
+            <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iste illo
+                nostrum quibusdam esse corporis,
                 nisi ratione assumenda perspiciatis nam voluptas ex optio exercitationem necessitatibus aut? Voluptatum
                 nihil incidunt necessitatibus.</p>
-            <img src="images/platzi-video-react-native.png" alt="proyecto de curso de react" width="500px">
-        </article>
-    </section>
-    <section>
-        <h2>Más sobre mi experiencia</h2>
-        <article>
-            <figure>
-                <!-- Cuando se quiera poner una contenedor que sea padre de la imagen de debe colocar un figure -->
-                <img alt="Imagen de experiencia" src="images/platzi-conf.jpg" width="500px" height="300px" />
+            <figure class="project-imageContainer">
+                <img  class="project-image" src="images/platzi-video-react-native.png" alt="proyecto de curso de react" width="500px">
             </figure>
-            <h3>Platzi conf Mexico 2018</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis possimus optio tenetur aliquam nam unde
-                quibusdam, dolor cum odio quod harum fuga placeat. Deserunt eaque perferendis laboriosam id velit eum?</p>
-            <a>Ver platica</a>
         </article>
     </section>
-    <section>
-        <form action="/suscripcion/">
+    <section id="eventos">
+        <h2>Más sobre mi experiencia</h2>
+        <article class="event">
+            <figure class="event-imgContainer">
+                <!-- Cuando se quiera poner una contenedor que sea padre de la imagen de debe colocar un figure -->
+                <img class="event-img"   alt="Imagen de experiencia" src="images/platzi-conf.jpg" width="500px" height="300px" />
+            </figure>
+            <h3 class="event-title">Platzi conf Mexico 2018</h3>
+            <p class="event-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis possimus optio tenetur aliquam nam
+                unde
+                quibusdam, dolor cum odio quod harum fuga placeat. Deserunt eaque perferendis laboriosam id velit eum?
+            </p>
+            <a class="event-url" href="https://www.youtube.com/watch?v=khXfXYOLfzU">Ver platica</a>
+        </article>
+    </section>
+    <section id="t_Juntos" class="contact">
+        <form action="/suscripcion/" class="form-email">
             <h3>Creamos algo juntos?</h3>
             <!-- <label for="Email">Email</label> -->
             <input placeholder="Dejanos tu email !" type="text" name="email" id="Email">
@@ -70,7 +77,7 @@
             <button>Enviar</button>
         </form>
     </section>
-    <footer>footer</footer>
+    <footer class="footer">footer</footer>
 </body>
 
 </html>

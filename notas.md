@@ -21,7 +21,17 @@
 * > ```<link>``` se usa para poner el favicon en la web  
 
 ## Formularios
-* > <label for="Email">Email</label> -->
-            <input placeholder="Dejanos tu email !" type="text" name="email" id="Email">
-            <!-- <input type="submit"  value="texo del boton"> -->
-            <button>Enviar</button>
+* > ```<label for="Email">Email</label> ``` Al colocar en el for="" el id del input este hace que cuando se haga click en al label se ponga el foco en el input<br>
+,  ```<input placeholder="Dejanos tu email !" type="text" name="email" id="Email">```
+## Crear botones
+* >         ``` <input type="submit"  value="texo del boton"> ```
+            ```<button>Enviar</button>```
+
+## Linkear 
+* > ```<a><a>``` permite hacer un hiperenlace<br>
+```href=""``` permite poner links, pero  se sale de la pagina y se dirige a la que se le indico
+<br>
+``` target="_blank" ``` permite que se abra una pestaña nueva hacia la pagina que se indico
+
+
+
