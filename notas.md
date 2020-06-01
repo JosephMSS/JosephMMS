@@ -14,6 +14,8 @@
 * > ```<img/>``` atributos:  ```alt=""```,```src=""```
 * > Ruta absoluta: Se especifica la ruta exacta, con el prefio http(s)
 * > Ruta relativa: Se hace referencia a la ubicacion de la imagen, parte de la ubicacion del archivo catual
+* > ```<link>``` se usa para poner el favicon en la web  
+* > Atributos de link <br> ```rel="relacion del recurso contenido"``` <br>```type="recurso/formato"``` <br> ``` href="ubicacion de la ryta del archvo o enlazar elemntos por medio de un id(#)"```
 
 ```!DOCTYPE html>
 <html lang="en">
