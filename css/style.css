@@ -18,3 +18,12 @@ h1{
     text-decoration: underline;
 
 }
+.hero{
+height: 300px;
+}
+.project-details{
+    width: 500px;
+}
+.project-image-container{
+    width: 500px;
+}
