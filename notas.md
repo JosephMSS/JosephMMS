@@ -33,5 +33,7 @@
 <br>
 ``` target="_blank" ``` permite que se abra una pestaña nueva hacia la pagina que se indico
 
+## CSS
+* >Lo mejor es cambiar el tamaño de las letras desde CSS y escribir como se escribiria de manera normal en el HTMLpara que en la busqueda de los navegadores sea presentable.
 
 
