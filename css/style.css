@@ -29,6 +29,18 @@ background-size: 500px 300px;
 background-repeat: no-repeat;
 background-position-x: right;
 }
+.project{
+    /* border-top: 10px solid black;
+    border-right: 10px solid red;
+    border-left: 10px solid blue;
+    border-bottom: 10px solid gray; */
+    /* Se debe declara los tres elementos para que se vea el borde */
+    /* border-color:  red;
+    border-width: 10px;
+    border-style: solid; */
+    border:1px solid gray;
+    border-radius: 10px;
+}
 .project-details{
     width: 500px;
 }
