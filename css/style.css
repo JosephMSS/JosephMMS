@@ -17,6 +17,7 @@ h1{
     text-transform: capitalize;
     text-decoration: underline;
     color: white;
+    margin: 100px  150px 70px 30px;
 }
 h1 strong{
     color:#026fff;
@@ -40,6 +41,10 @@ background-position-x: right;
     border-style: solid; */
     border:1px solid gray;
     border-radius: 10px;
+    margin-bottom: 15px;
+    /* margin-right: 0%;
+    margin-left: ;
+    margin-top: ; */
 }
 .project-details{
     width: 500px;
