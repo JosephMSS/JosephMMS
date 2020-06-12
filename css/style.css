@@ -1,6 +1,6 @@
 body{
     font-family:'Source Sans Pro',sans-serif ;
-
+margin:0;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'fjalla One',sans-serif;
@@ -30,7 +30,16 @@ background-size: 500px 300px;
 background-repeat: no-repeat;
 background-position-x: right;
 }
+.portfolio{
+    background: #FAFAFA;
+}
 .project{
+    border:1px solid gray;
+    border-radius: 10px;
+    margin:10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
     /* border-top: 10px solid black;
     border-right: 10px solid red;
     border-left: 10px solid blue;
@@ -39,9 +48,7 @@ background-position-x: right;
     /* border-color:  red;
     border-width: 10px;
     border-style: solid; */
-    border:1px solid gray;
-    border-radius: 10px;
-    margin-bottom: 15px;
+
     /* margin-right: 0%;
     margin-left: ;
     margin-top: ; */
@@ -60,4 +67,19 @@ background-position-x: right;
     color: white;
     text-decoration: none;
     
+}
+.flexbox{
+ display:flex;
+ /* nowrap hace que ningun elemento se mueva de la linea x */
+flex-wrap: wrap;
+ /* flex-direction: column; */
+
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+
+ /* determina cuando se encoje un elemento o no */
+    flex-shrink: 1 ;
 }
