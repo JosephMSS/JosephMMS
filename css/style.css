@@ -2,6 +2,29 @@ body{
     font-family:'Source Sans Pro',sans-serif ;
 margin:0;
 }
+.menu { /* .menu hereda de .header */
+    height: inherit;
+  }
+  
+  .header ol { /* .header ol hereda de .menu */
+    display: flex;
+    height: inherit;
+  }
+  
+  .header ol li { /* .header ol li hereda de .header ol */
+    height: inherit;
+  }
+  
+  .header a { /* .header a hereda de .header ol li */
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+  }
+figure{
+    margin: 0;
+}
 h1,h2,h3,h4,h5,h6{
     font-family: 'fjalla One',sans-serif;
     font-weight: normal;
@@ -17,7 +40,7 @@ h1{
     text-transform: capitalize;
     text-decoration: underline;
     color: white;
-    margin: 100px  150px 70px 30px;
+    margin: 100px  500px 70px 30px;
 }
 h1 strong{
     color:#026fff;
@@ -29,6 +52,8 @@ background-color: #1b2127;
 background-size: 500px 300px;
 background-repeat: no-repeat;
 background-position-x: right;
+display: flex;
+align-items: center;
 }
 .portfolio{
     background: #FAFAFA;
@@ -40,18 +65,6 @@ background-position-x: right;
     margin-bottom: 15px;
     padding: 20px;
     background: white;
-    /* border-top: 10px solid black;
-    border-right: 10px solid red;
-    border-left: 10px solid blue;
-    border-bottom: 10px solid gray; */
-    /* Se debe declara los tres elementos para que se vea el borde */
-    /* border-color:  red;
-    border-width: 10px;
-    border-style: solid; */
-
-    /* margin-right: 0%;
-    margin-left: ;
-    margin-top: ; */
 }
 .project-details{
     width: 500px;
@@ -59,27 +72,59 @@ background-position-x: right;
 .project-image-container{
     width: 500px;
 }
-.header{
+.header {
+    background-color: #1b2127;	  background-color: #1b2127;
+    color: white;	  color: white;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  ol,
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  figure {
+    margin: 0;
+  }	}
+  
+  
+ .header a {
+    color: white;	  color: white;
+    text-decoration: none;	  text-decoration: none;
+  }	
+  
+  .menu {
+    height: inherit;
+  }
+  .header ol {
+    display: flex;
+    height: inherit;
+  }
+  .header ol li {
+    height: inherit;
+  }
+  .header a {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+  }
+
+  .footer{
     background-color: #1b2127;
-    color: white;
-}
-.header a{
-    color: white;
-    text-decoration: none;
-    
-}
-.flexbox{
- display:flex;
- /* nowrap hace que ningun elemento se mueva de la linea x */
-flex-wrap: wrap;
- /* flex-direction: column; */
-
-}
-.box{
-    width: 200px;
-    height: 200px;
-    border: 1px solid;
-
- /* determina cuando se encoje un elemento o no */
-    flex-shrink: 1 ;
-}
+    color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer img{
+    vertical-align: middle;
+  }
+  .footer a {
+    color: #FAFAFA;
+  }
