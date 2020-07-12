@@ -54,6 +54,11 @@ figure {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #026fff;
+}
+
 .header {
   background-color: #1b2127;
   color: #fafafa;
