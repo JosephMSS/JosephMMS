@@ -6,20 +6,19 @@ body {
     font-family: $secondary-font;
     font-weight: normal;
   }
-  .container {
-    /* border: 1px solid red; */
-    max-width: 1000px;
-    flex: 1;
-    /* toma todo el ancho disponible en el elemento */
-    margin: 0 auto;
-    display: inherit;
-    justify-content: inherit;
-    align-items: inherit;
-    height: inherit;
-    flex-wrap: inherit;
+  h2 {
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
   }
-@media screen and (max-width: 1024px) {
-  .container {
-    padding: 0 1em;
+  ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
   }
-}
+  figure {
+    margin: 0;
+  }

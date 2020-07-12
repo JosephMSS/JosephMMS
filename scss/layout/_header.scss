@@ -6,10 +6,9 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+
     ol {
-        margin: 0;
-        padding: 0;
-        list-style: none;
+        
         display: flex;
         height: inherit;
         li {
@@ -38,7 +37,7 @@
                 height: 50px;
             }
         }
-        .logo {
+        &__logo {
             text-align: center;
         }
         &__menu {
