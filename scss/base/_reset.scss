@@ -1,0 +1,25 @@
+body {
+    font-family: $primary-font;
+    margin: 0;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: $secondary-font;
+    font-weight: normal;
+  }
+  .container {
+    /* border: 1px solid red; */
+    max-width: 1000px;
+    flex: 1;
+    /* toma todo el ancho disponible en el elemento */
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+  }
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0 1em;
+  }
+}

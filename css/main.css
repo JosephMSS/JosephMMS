@@ -1,0 +1,297 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: normal;
+}
+
+.container {
+  /* border: 1px solid red; */
+  max-width: 1000px;
+  flex: 1;
+  /* toma todo el ancho disponible en el elemento */
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    padding: 0 1em;
+  }
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?juqkpc");
+  src: url("../fonts/icomoon.eot?juqkpc#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?juqkpc") format("truetype"), url("../fonts/icomoon.woff?juqkpc") format("woff"), url("../fonts/icomoon.svg?juqkpc#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e900";
+}
+
+.header {
+  background-color: #1b2127;
+  color: #fafafa;
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  height: inherit;
+}
+
+.header ol li {
+  height: inherit;
+}
+
+.header__menu {
+  height: inherit;
+}
+
+.header__menu--link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: inherit;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    display: block;
+    height: auto;
+  }
+  .header ol {
+    display: initial;
+  }
+  .header ol li {
+    height: 50px;
+  }
+  .header .logo {
+    text-align: center;
+  }
+  .header__menu {
+    position: fixed;
+    background-color: rgba(2, 111, 255, 0.9);
+    z-index: 3;
+    top: 0;
+    left: -100vw;
+    width: 100vw;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: auto; */
+    transition: 0.3s;
+  }
+  .header__menu .isActive {
+    left: 0;
+  }
+  .header__menu--link {
+    justify-content: center;
+  }
+}
+
+.protagonist {
+  height: 300px;
+  background-color: #1b2127;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.protagonist__title {
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: -0.2px;
+  color: #fafafa;
+  margin: 0;
+}
+
+.protagonist strong {
+  color: #026fff;
+}
+
+.protagonist__img {
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .protagonist {
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 2em;
+  }
+  .protagonist__title {
+    font-size: 2em;
+    z-index: 2;
+  }
+  .protagonist__img {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .protagonist__title {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .protagonist {
+    padding: 2em 1em;
+  }
+  .protagonist__title {
+    font-size: 1.2em;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+  }
+}
+
+.portfolio__title {
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.portfolio__project {
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  padding: 20px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.portfolio__project strong {
+  font-family: "Fjalla One", sans-serif;
+}
+
+.portfolio__project figure {
+  margin: 0;
+}
+
+.portfolio__project--details {
+  width: 50%;
+}
+
+.portfolio__project--title {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.portfolio__project--tech {
+  margin: 10px 0;
+}
+
+.portfolio__project--date {
+  margin: 10px 0;
+}
+
+.portfolio__project--url {
+  margin: 10px 0;
+}
+
+.portfolio__project--description {
+  font-size: 20px;
+}
+
+.portfolio__project--imageContainer {
+  width: 50%;
+}
+
+.portfolio__project--image {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .portfolio__title {
+    font-size: 1.2em;
+    margin: 0.5em 0;
+  }
+  .portfolio__project {
+    display: block;
+  }
+  .portfolio__project--details {
+    width: auto;
+    font-size: 16px;
+  }
+  .portfolio__project--title {
+    font-size: 1.5em;
+    margin-bottom: 0.3em;
+  }
+  .portfolio__project--tech {
+    margin: 0.4em 0;
+    font-size: 0.7em;
+  }
+  .portfolio__project--date {
+    margin: 0.4em 0;
+    font-size: 1em;
+  }
+  .portfolio__project--url {
+    margin: 0.4em 0;
+    font-size: 1em;
+  }
+  .portfolio__project--description {
+    font-size: 1em;
+  }
+  .portfolio__project--imageContainer {
+    width: auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  __project--details {
+    font-size: 12px;
+  }
+}

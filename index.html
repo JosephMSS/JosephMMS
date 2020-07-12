@@ -8,7 +8,9 @@
     <link rel="icon" type="image/svg" href="images/rocket.svg" />
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/main.css">
+
 
 </head>
 
@@ -16,78 +18,78 @@
     <i class="icon-menu burger-button" id="burger-menu" ></i>
     <header class="header">
         <section class="container">
-            <figure class="logo">
+            <figure class="header__logo">
                 <img src="images/logo.png" alt="logo" height="50px">
             </figure>
-            <nav class="menu isActive " >
+            <nav class="header__menu isActive " >
                 <ol>
                     <li>
-                        <a class="link" href="#portafolio">Portafolio</a>
+                        <a class="header__menu--link" href="#portafolio">Portafolio</a>
                     </li>
                     <li>
-                        <a class="link" href="#eventos">Experiencia</a>
+                        <a class="header__menu--link" href="#eventos">Experiencia</a>
                     </li>
                     <li>
-                        <a class="link" href="#t_Juntos">Trabajemos juntos</a>
+                        <a class="header__menu--link" href="#t_Juntos">Trabajemos juntos</a>
                     </li>
                 </ol>
             </nav>
         </section>
     </header>
-        <section class="hero">
+        <section class="protagonist">
             <section class="container">
-                <h1>Hola, soy <strong>Joseph Morales</strong> <br>Desarrollador Junior<br>Estudiante de <strong>Informática
+                <h1 class="protagonist__title">Hola, soy <strong>Joseph Morales</strong> <br>Desarrollador Junior<br>Estudiante de <strong>Informática
                         Empresarial</strong></h1>
-                <img class="hero-image" src="images/a2.jpg" width="500" height="300" alt="Imagen de Portada" />
+                <img class="protagonist__img" src="images/a2.jpg" width="500" height="300" alt="Imagen de Portada" />
             </section>
     
         </section>
         <section id="portafolio" class="portfolio">
             <section class="container">
-                <h2>Portafolio{Proyectos destacados}</h2>
-                <article class="project">
-                    <div class="project-details">
-                        <h3 class="project-title">Joyota S.A</h3>
-                        <h6 class="project-course">ASP .NET</h6>
-                        <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
-                        <p class="project-url"><small><strong>Puedes verlo en:</strong>www.platzi.com/native</small></p>
-                        <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iste
+                <h2 class="portfolio__title">Portafolio</h2>
+                <article class="portfolio__project">
+                    <div class="portfolio__project--details">
+                        <h3 class="portfolio__project--title">Joyota S.A</h3>
+                        <h6 class="portfolio__project--tech">ASP .NET</h6>
+                        <p class="portfolio__project--date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
+                        <p class="portfolio__project--url"><small><strong>Puedes verlo en:</strong>www.platzi.com/native</small></p>
+                        <p class="portfolio__project--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iste
                             illo
                             nostrum quibusdam esse corporis,
                             nisi ratione assumenda perspiciatis nam voluptas ex optio exercitationem necessitatibus aut?
                             Voluptatum
                             nihil incidunt necessitatibus.</p>
                     </div>
-                    <figure class="project-imageContainer">
-                        <img class="project-image" src="images/Joyota (1).png"
+                    <figure class="portfolio__project--imageContainer">
+                        <img class="portfolio__project--image" src="images/Joyota (1).png"
                             alt="proyecto de curso de react" width="500px">
                     </figure>
                 </article>
-                <article class="project">
-                    <div class="project-details">
-                        <h3 class="project-title">Platzi Video</h3>
-                        <h6 class="project-course">react Native / React</h6>
-                        <p class="project-date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
-                        <p class="project-url"><small><strong>Puedes verlo en:</strong>www.platzi.com/native</small></p>
-                        <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iste
+                <article class="portfolio__project">
+                    <div class="portfolio__project--details">
+                        <h3 class="portfolio__project--title">Platzi Video</h3>
+                        <h6 class="portfolio__project--tech">react Native / React</h6>
+                        <p class="portfolio__project--date"><small><strong>Fecha:</strong> 01/07/2018</small></p>
+                        <p class="portfolio__project--url"><small><strong>Puedes verlo en:</strong>www.platzi.com/native</small></p>
+                        <p class="portfolio__project--description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia iste
                             illo
                             nostrum quibusdam esse corporis,
                             nisi ratione assumenda perspiciatis nam voluptas ex optio exercitationem necessitatibus aut?
                             Voluptatum
                             nihil incidunt necessitatibus.</p>
                     </div>
-                    <figure class="project-imageContainer">
-                        <img class="project-image" src="images/platzi-video-react-native.png"
+                    <figure class="portfolio__project--imageContainer">
+                        <img class="portfolio__project--image" src="images/platzi-video-react-native.png"
                             alt="proyecto de curso de react" width="500px">
                     </figure>
                 </article>
             </section>
     
         </section>
-        <section class="container">
+        <!-- <section class="container">
             <h2 class="event-list-title">Más sobre mi experiencia</h2>
-        </section>
-         <section id="eventos" class="event-list">
+        </section> -->
+         <!-- <section id="eventos" class="event-list">
             <section class="container">
                 <article class="event">
                     <figure class="event-imgContainer">
@@ -158,8 +160,8 @@
                     </section>
                 </article>
             </section>
-        </section> 
-        <section id="t_Juntos" class="contact">
+        </section>  -->
+        <!-- <section id="t_Juntos" class="contact">
             <section class="container">
                 <form action="/suscripcion/" class="form-email">
                     <h3>Creamos algo juntos?</h3>
@@ -173,8 +175,8 @@
                 <a href="https://github.com/JosephMSS" class="social-link github"></a>
                 <a href="https://www.instagram.com/joseph.moraless/?hl=es-la" class="social-link instagram"></a>
             </section>
-        </section>
-         <footer class="footer">
+        </section> -->
+         <!-- <footer class="footer">
             <section class="container">
                 
                 <div>
@@ -186,7 +188,7 @@
                 </div>
             </section>
             
-        </footer> 
+        </footer>  -->
 
         <script src="js/event.js"></script>
 
