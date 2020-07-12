@@ -1,5 +1,5 @@
 // 'use strict'
-   var menu=document.querySelector(".menu");
+   var menu=document.querySelector(".header__menu");
    var burgerButton=document.querySelector("#burger-menu");
    var screen=window.matchMedia('screen and (max-width: 767px)');
     
@@ -19,12 +19,12 @@
     validation(screen)
    
     function hideShow(){
-        if(menu.classList.contains('isActive'))
+        if(menu.classList.contains('header__menu--isActive'))
        {
-        menu.classList.remove('isActive');
+        menu.classList.remove('header__menu--isActive');
 
        }else{
-        menu.classList.add('isActive');
+        menu.classList.add('header__menu--isActive');
 
        }
     }

@@ -17,6 +17,7 @@
     }
     &__menu {
         height: inherit;
+        
         &--link {
             color: white;
             text-decoration: none;
@@ -24,6 +25,7 @@
             align-items: center;
             height: inherit;
             padding: 0 10px;
+        
         }
     }
 }
@@ -53,7 +55,7 @@
             justify-content: center;
             /* height: auto; */
             transition: 0.3s;
-            .isActive{
+            &--isActive{
                 left: 0;
               }
             &--link {
