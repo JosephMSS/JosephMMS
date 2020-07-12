@@ -16,7 +16,7 @@
 
         }
     }
-
+    validation(screen)
    
     function hideShow(){
         if(menu.classList.contains('isActive'))
